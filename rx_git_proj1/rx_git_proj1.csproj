@@ -13,6 +13,7 @@
     <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
     <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
     <projectdefaultrepository>54cf8e3f-f6b1-42b0-892f-201b434276d2</projectdefaultrepository>
+    <StartAction>Project</StartAction>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -175,9 +176,9 @@
       <recordtableid>aac35e05-7921-45e8-88a4-08018c0ff961</recordtableid>
     </None>
     <None Include="Recording1.rxrec">
-      <BoundTo>54cf8e3f-f6b1-42b0-892f-201b434276d2</BoundTo>
       <id>50ef5bfb-98a8-449f-97b8-9d5dd39916fc</id>
       <recordtableid>f555e13c-753d-4b10-ba57-f3ddbc905589</recordtableid>
+      <BoundTo>54cf8e3f-f6b1-42b0-892f-201b434276d2</BoundTo>
     </None>
     <None Include="rx_git_proj1Repository.rximg">
       <BoundTo>54cf8e3f-f6b1-42b0-892f-201b434276d2</BoundTo>

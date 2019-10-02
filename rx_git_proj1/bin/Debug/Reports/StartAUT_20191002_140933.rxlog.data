@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="fa5b8c4e01793b0"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="ssikanjic"
+		rxversion="9.1.1.0"
+		host="RXLAPTOP058"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="de-AT"
+		screenresolution="3840x1080"
+		timestamp="02.10.2019 14:09:35"
+		timestampiso="2019-10-02T12:09:35"
+		endtime="02.10.2019 14:09:38"
+		timeoutfactor="1"
+		module="StartAUT">
+		<detail>
+			StartAUT
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.905"
+			timeRelativeToTestModuleStartTime="00:02.905"
+			timeWallClock="14:09:38"
+			time="00:02.905"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>StartAutProcessIDVar
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.921"
+			timeRelativeToTestModuleStartTime="00:02.921"
+			timeWallClock="14:09:38"
+			time="00:02.921"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Users\ssikanjic\Documents\Ranorex\RanorexStudio Projects\Database.kdbx' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\ssikanjic\Documents\Ranorex\RanorexStudio Projects\rx_git_proj1\rx_git_proj1\StartAUT.cs"
+				codeline="95"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

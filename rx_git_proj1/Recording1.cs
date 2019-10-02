@@ -79,6 +79,14 @@ namespace rx_git_proj1
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'KeyPromptForm.MBtnCancel' at 26;6.", repo.KeyPromptForm.MBtnCancelInfo, new RecordItemIndex(0));
+            repo.KeyPromptForm.MBtnCancel.Click("26;6");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MainForm.Close' at 19;13.", repo.MainForm.CloseInfo, new RecordItemIndex(1));
+            repo.MainForm.Close.Click("19;13");
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data
